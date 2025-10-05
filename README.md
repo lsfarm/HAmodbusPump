@@ -1,5 +1,5 @@
 # HAmodbusPump
-(Modbus Datasheet)[https://www.phasetechnologies.com/downloads/Modbus_and_BAC_Net_User_Manual_869af9f8cc.pdf]
+[Modbus Datasheet](https://www.phasetechnologies.com/downloads/Modbus_and_BAC_Net_User_Manual_869af9f8cc.pdf)  
 mosquitto_sub -h 192.168.1.100 -t "modbus/dxe007r/#"
 
 •	If values look wrong:
