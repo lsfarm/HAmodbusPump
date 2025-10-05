@@ -1,0 +1,27 @@
+mqtt:
+  sensor:
+    - name: "Measured PSI"
+      state_topic: "modbus/dxe007r/measured_psi"
+      unit_of_measurement: "psi"
+      device_class: pressure
+
+    - name: "Measured GPM"
+      state_topic: "modbus/dxe007r/measured_gpm"
+      unit_of_measurement: "gpm"
+
+    - name: "Measured FT"
+      state_topic: "modbus/dxe007r/measured_ft"
+      unit_of_measurement: "ft"
+
+    - name: "Target Hz"
+      state_topic: "modbus/dxe007r/target_hz"
+      unit_of_measurement: "Hz"
+      device_class: frequency
+
+    - name: "Target PSI"
+      state_topic: "modbus/dxe007r/target_psi"
+      unit_of_measurement: "psi"
+
+    - name: "Target GPM"
+      state_topic: "modbus/dxe007r/target_gpm"
+      unit_of_measurement: "gpm"
