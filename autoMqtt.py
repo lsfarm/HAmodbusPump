@@ -10,11 +10,11 @@ import json
 # Configuration
 # ------------------------
 
-MODBUS_PORT = '/dev/ttyUSB0'
+MODBUS_PORT = '/dev/ttyS0'
 MODBUS_BAUDRATE = 9600
 MODBUS_SLAVE_ID = 1
 
-MQTT_BROKER = '192.168.1.100'
+MQTT_BROKER = '192.168.15.15'
 MQTT_BASE_TOPIC = 'modbus/dxe007r'
 MQTT_DISCOVERY_PREFIX = 'homeassistant'
 
